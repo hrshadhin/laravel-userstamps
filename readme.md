@@ -6,7 +6,7 @@ This package automatically inserts/updates an user id on your table on who creat
 ## Install via Composer
 
 ```bash
-composer require hrshadhin/laravel-auditable
+composer require hrshadhin/laravel-userstamps
 ```
 
 ## Usage
