@@ -3,11 +3,23 @@
 Laravel Userstamps is a simple Laravel package for your Eloquent Model user specific feilds.
 This package automatically inserts/updates an user id on your table on who created, last updated and deleted the record.
 
-## Install via Composer
+## Install
+1. Add repositories in composer.json
 
-```bash
-composer require hrshadhin/laravel-userstamps
 ```
+"repositories": [
+   {
+     "url": "https://github.com/notmaintained/shopify.php",
+
+      "type": "git"
+    }
+ ],
+```
+2. Add the package name in require with the branch name after the dev:
+```
+"hrshadhin/laravel-userstamps": "dev-master"
+```
+
 
 ## Usage
 
