@@ -1,0 +1,39 @@
+{
+  "name": "hrshadhin/laravel-userstamps",
+  "homepage": "https://github.com/hrshadhin/laravel-userstamps",
+  "license": "MIT",
+  "description": "A simple Laravel package for Eloquent Model user specific feilds.",
+  "keywords": [
+    "hrshadhin",
+    "laravel",
+    "userstamps",
+    "eloquent",
+    "userstamps",
+    "created_by",
+    "updated_by",
+    "deleted_by"
+  ],
+  "authors": [
+    {
+      "name": "H.R.Shadhin",
+      "email": "dev@hrshadhin.me"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "~5.5",
+    "illuminate/database": "~5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hrshadhin\\Userstamps": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Hrshadhin\\Userstamps\\UserstampsServiceProvider"
+      ]
+    }
+  }
+}
