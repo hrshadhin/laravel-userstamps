@@ -9,7 +9,7 @@ This package automatically inserts/updates an user id on your table on who creat
 ```
 "repositories": [
    {
-     "url": "https://github.com/notmaintained/shopify.php",
+     "url": "https://github.com/hrshadhin/laravel-userstamps.git",
 
       "type": "git"
     }
