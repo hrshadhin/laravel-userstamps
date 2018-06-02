@@ -27,7 +27,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Hrshadhin\\Userstamps": "src/"
+      "Hrshadhin\\Userstamps\\": "src/"
     }
   },
   "extra": {
