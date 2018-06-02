@@ -13,6 +13,7 @@
     "updated_by",
     "deleted_by"
   ],
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "H.R.Shadhin",
