@@ -47,6 +47,19 @@ class UserstampsTraitObserver
             $model->updated_by = $this->getAuthenticatedUserId();
         }
     }
+    
+     /**
+     * Model's saving event hook.
+     *
+     * @param \Hrshadhin\Userstamps\UserstampsTrait $model
+     */
+    public function saving($model)
+    {
+        if (! $model->isDirty('updated_by')) {
+            $model->updated_by = $this->getAuthenticatedUserId();
+        }
+    }
+
 
      /**
       * Model's deleting event hook.
@@ -57,6 +70,8 @@ class UserstampsTraitObserver
     {
         if (! $model->isDirty('deleted_by')) {
             $model->deleted_by = $this->getAuthenticatedUserId();
+            //explicit save if softdelete trait is used
+            $model->save();
         }
     }
 
