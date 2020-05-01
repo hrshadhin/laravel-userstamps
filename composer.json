@@ -20,10 +20,12 @@
       "email": "dev@hrshadhin.me"
     }
   ],
+  "readme": "./readme.md",
+  "time": "2020-05-01",
   "require": {
-    "php": ">=7.0",
-    "illuminate/support": "~5.5",
-    "illuminate/database": "~5.5"
+    "php": "^7.2",
+    "illuminate/support": "^6.0",
+    "illuminate/database": "^6.0"
   },
   "autoload": {
     "psr-4": {

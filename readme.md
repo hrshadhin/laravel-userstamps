@@ -16,10 +16,11 @@ This package automatically inserts/updates an user id on your table on who creat
  ],
 ```
 2. Add the package name in require with the branch name after the dev:
-```
-"hrshadhin/laravel-userstamps": "dev-master"
-```
-
+    ```
+    "hrshadhin/laravel-userstamps": "dev-master"
+    ```
+    - For Laravel 5.x use [v1.0.0](https://github.com/hrshadhin/laravel-userstamps/releases/tag/v1.0.0)
+    - For Laravel 6.x use `master` or  [v2.0.0](https://github.com/hrshadhin/laravel-userstamps/releases/tag/v2.0.0)
 
 ## Usage
 
