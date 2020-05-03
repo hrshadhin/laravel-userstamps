@@ -15,9 +15,9 @@ This package automatically inserts/updates an user id on your table on who creat
     }
  ],
 ```
-2. Add the package name in require with the branch name after the dev:
+2. Add the package name in `composer.json` require section:
 ```
-"hrshadhin/laravel-userstamps": "dev-master"
+"hrshadhin/laravel-userstamps": "^1.0.0"
 ```
 
 
