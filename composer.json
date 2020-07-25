@@ -2,7 +2,7 @@
   "name": "hrshadhin/laravel-userstamps",
   "homepage": "https://github.com/hrshadhin/laravel-userstamps",
   "license": "MIT",
-  "description": "A simple Laravel package for Eloquent Model user specific feilds.",
+  "description": "A simple Laravel package for Eloquent Model user specific fields.",
   "keywords": [
     "hrshadhin",
     "laravel",
@@ -21,11 +21,11 @@
     }
   ],
   "readme": "./readme.md",
-  "time": "2020-05-01",
+  "time": "2020-07-25",
   "require": {
-    "php": "^7.2",
-    "illuminate/support": "^6.0",
-    "illuminate/database": "^6.0"
+    "php": "^7.2.5",
+    "illuminate/support": "^7.0",
+    "illuminate/database": "^7.0"
   },
   "autoload": {
     "psr-4": {
