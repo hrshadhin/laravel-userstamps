@@ -1,17 +1,11 @@
 {
-  "name": "hrshadhin/laravel-userstamps",
-  "homepage": "https://github.com/hrshadhin/laravel-userstamps",
+  "name": "sunwarul/laravel-userstamps",
+  "homepage": "https://github.com/Sunwarul/laravel-userstamps",
   "license": "MIT",
   "description": "A simple Laravel package for Eloquent Model user specific fields.",
   "keywords": [
     "hrshadhin",
-    "laravel",
-    "userstamps",
-    "eloquent",
-    "userstamps",
-    "created_by",
-    "updated_by",
-    "deleted_by"
+    "laravel"
   ],
   "minimum-stability": "stable",
   "authors": [
